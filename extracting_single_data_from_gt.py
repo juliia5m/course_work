@@ -4,7 +4,7 @@ pytrend = TrendReq()
 
 
 kw_list = ['enter singer']
-pytrends = pytrend.build_payload(kw_list, cat=0, timeframe='2004-12-14 2010-12-25', geo='', gprop='images')
+pytrends = pytrend.build_payload(kw_list, cat=0, timeframe='2004-12-14 2010-12-25', geo='', gprop='')
 
 pytrends = TrendReq(hl='en-US', tz=360)
 
