@@ -61,8 +61,9 @@ for j in list_of_csv_author:
     for k in all_years:
         additional = []                          #массив для хранения характеристик популярности автора до выхода песни
         additional_after = []                    #масив для хранения характеристик популярности автора после выхода песни
-        year = str(k) + '-'+'01'+'-'+'01'       #в датасете есть только год выпуска песни,по-этому формируем полную дату
-        d_before = tab[tab['date'] <= year]
+        year = str(k) + '-'+'01'+'-'+'01'  #в датасете есть только год выпуска песни,по-этому формируем полную дату
+        year1 = str(k) +'-'+'12'+'-'+'01'
+        d_before = tab[tab['date'] <= year1]
         d_after = tab[tab['date'] >= year]
         new_data_after = d_after[j[5:len(j)-4]]
         new_d_after = d_after['date']
