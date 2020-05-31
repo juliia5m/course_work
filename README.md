@@ -1,4 +1,3 @@
 # course_work
-getting data from Google Trands and making a data analysis;
-the code for music app and song analysis
-
+getting data from Google Trands and making a data analysis; the code for music app and song analysis
+ 
