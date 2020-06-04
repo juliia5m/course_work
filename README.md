@@ -16,7 +16,6 @@ The main goal of our course work was to create a kivy-application which takes as
 Let's record what exactly we will be doing during our research work:
 
         1.Analyse existing approaches and decide which audio characteristics we need in order to build our model.
-        
         2.Choose an appropriate dataset. As we will analyze audio features, we need data that can provide these features or will be suitable in order to count them.
         3.Clean dataset. Leave only these songs that we can work with.
         4.Extract data from GoogleTrands in order to analyze performer's popularity before and after song release.
