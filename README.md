@@ -1,7 +1,7 @@
 # course_work
 getting data from Google Trands and making a data analysis; code for music app and song analysis
 
------------------------------Song popularity prediction application based on song features analysis ------------------------------------ 
+-----------------------------Song popularity prediction application based on song features analysis -------------------------------- 
 
 Authors:  
 
@@ -29,6 +29,11 @@ Let's record what exactly we will be doing during our research work:
         10. Model returns results that show which features influenced the popularity of the songs the most and how high or low they were. 
         12.Then study the kivy documentation. 
         13. Write the kivy-application with an interface, which accepts a song and a 'txt' file from a user, applies our model on it and returns a counted features and prediction of popularity of a given song based on them. 
+        
+ 
+In order to run the app just download all files from a folder and run application.py or do it with git commands. Run this application on your song and see result on the screen or save your song popularity prediction and a few counted features to a txt file. Hope you wil like it ! ;)
+        
+        
         
 
  
